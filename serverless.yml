@@ -1,0 +1,31 @@
+service: drogon
+
+custom:
+  topicName: ${self:service}
+
+provider:
+  name: aws
+  runtime: java8
+  stage: ${opt:stage, "dev"}
+  region: us-west-2
+  memorySize: 512
+  timeout: 20
+  environment:
+    NOTIFYME_KEY: ${env:NOTIFYME_KEY}
+
+package:
+  artifact: build/libs/drogon.jar
+
+functions:
+  sns-handler:
+    handler: com.merricklabs.drogon.handlers.SnsHandler
+    events:
+      - sns:
+          arn:
+            Fn::Join:
+              - ":"
+              - - "arn:aws:sns"
+                - Ref: "AWS::Region"
+                - Ref: "AWS::AccountId"
+                - ${self:custom.topicName}
+          topicName: ${self:custom.topicName}

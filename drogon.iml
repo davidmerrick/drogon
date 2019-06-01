@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="drogon" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="com.merricklabs.drogon" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.1/67612a22d4b8f33c55263b188bf5a72774d06d18/okhttp-3.14.1.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.31/21edc5a6b2e39bc4dc2860346fd778e27503d6cb/kotlin-stdlib-jdk8-1.3.31.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-jdk14/1.7.26/c82cee90e4308cf6789d3d20255e30a670261fe7/slf4j-jdk14-1.7.26.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/io.github.microutils/kotlin-logging/1.6.10/c1d7b05c311c60df1b66017ff3ebec80e417e97d/kotlin-logging-1.6.10.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/77100a62c2e6f04b53977b9f541044d7d722693d/slf4j-api-1.7.26.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.koin/koin-core/1.0.1/fb3816d35ef25b7f6e9074c2cdd5131408baf7a0/koin-core-1.0.1.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-lambda-java-log4j2/1.0.0/3e0b193d254c89acafd6885aa8ba32262a96edb8/aws-lambda-java-log4j2-1.0.0.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-lambda-java-core/1.1.0/b25d4345c6e9e8be78b2803dd43d812f15178a81/aws-lambda-java-core-1.1.0.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-lambda-java-events/2.0.1/e659377879a4a7317398b11df269d974f2ed9710/aws-lambda-java-events-2.0.1.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-dynamodb/1.11.527/68dc17a4305200b7ef4927318e702e573ccb3045/aws-java-sdk-dynamodb-1.11.527.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.8.5/1f898f0d2660e2d3732fd6710c61852f9cfd0162/jackson-module-kotlin-2.8.5.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.11.527/dd38f7cdb201cd79ea35d7e09946c21ddd2d84c2/aws-java-sdk-s3-1.11.527.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.11.527/802bb2be0174b695ee26fb5634c0c3a21e8dfaa7/aws-java-sdk-kms-1.11.527.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.11.527/b920d70c3f180cdf8ee2db146bcc974d0ffa8946/aws-java-sdk-core-1.11.527.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.amazonaws/jmespath-java/1.11.527/511b879e8acdb3d251530295cdabe9cbd6d2ee53/jmespath-java-1.11.527.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b3035f37e674c04dafe36a660c3815cc59f764e2/jackson-databind-2.8.5.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/ba9e74b11135b18248e960df657a2b86ae77a079/jackson-dataformat-cbor-2.6.7.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/60d059f5d2930ccd1ef03535b713fd9f933d1ba7/jackson-core-2.8.5.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.5/9d82ff47bc2c2d3b5b6a6618fe636782bbcd5b07/jackson-annotations-2.8.5.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.31/e652770b6416c6d85934086899ffed3eccd35813/kotlin-stdlib-jdk7-1.3.31.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.0.3/ed9cbaeb8dccd2027348185044012aac145a5c61/kotlin-reflect-1.0.3.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/io.github.microutils/kotlin-logging-common/1.6.10/98507484fee3491b386684a0d7be18a0be499e9d/kotlin-logging-common-1.6.10.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.2/979fc0cf8460302e4ffbfe38c1b66a99450b0bb7/log4j-core-2.8.2.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.2/e590eeb783348ce8ddef205b82127f9084d82bf3/log4j-api-2.8.2.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.1/f5bfc718c95a7b1d3c371bb02a188a4df18361a9/joda-time-2.8.1.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.5/1603dfd56ebcd583ccdf337b6c3984ac55d89e58/httpclient-4.5.5.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/software.amazon.ion/ion-java/1.0.2/ee9dacea7726e495f8352b81c12c23834ffbc564/ion-java-1.0.2.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.9/a86ce739e5a7175b4b234c290a00a5fdb80957a0/httpcore-4.4.9.jar:/Users/davidmerrick/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="drogon" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-jdk14:1.7.26" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.microutils:kotlin-logging:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.26" level="project" />
+    <orderEntry type="library" name="Gradle: org.koin:koin-core:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-lambda-java-log4j2:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-lambda-java-core:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-lambda-java-events:2.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-dynamodb:1.11.527" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-s3:1.11.527" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-kms:1.11.527" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-core:1.11.527" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:jmespath-java:1.11.527" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.6.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.microutils:kotlin-logging-common:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-core:2.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.5" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: software.amazon.ion:ion-java:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.9" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.koin:koin-test:1.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.testng:testng:6.14.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-inline:2.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-core:2.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.bytebuddy:byte-buddy:1.8.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.bytebuddy:byte-buddy-agent:1.8.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
+  </component>
+</module>
