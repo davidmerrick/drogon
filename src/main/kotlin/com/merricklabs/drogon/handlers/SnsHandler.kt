@@ -2,10 +2,11 @@ package com.merricklabs.drogon.handlers
 
 import com.amazonaws.services.lambda.runtime.Context
 import com.amazonaws.services.lambda.runtime.RequestHandler
+import com.amazonaws.services.lambda.runtime.events.SNSEvent
 import com.merricklabs.drogon.DrogonModule
 import org.koin.standalone.StandAloneContext
 
-class SnsHandler : RequestHandler<Map<String, Any>, Unit> {
+class SnsHandler : RequestHandler<SNSEvent, Unit> {
     private val logic: SnsHandlerLogic
 
     init {
@@ -13,7 +14,7 @@ class SnsHandler : RequestHandler<Map<String, Any>, Unit> {
         logic = SnsHandlerLogic()
     }
 
-    override fun handleRequest(input: Map<String, Any>, context: Context) {
+    override fun handleRequest(input: SNSEvent, context: Context) {
         return logic.handleRequest(input, context)
     }
 }
