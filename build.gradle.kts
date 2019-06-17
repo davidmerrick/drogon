@@ -6,27 +6,26 @@ repositories {
 }
 
 plugins {
-    id("de.fayard.buildSrcVersions") version "0.3.2"
-    kotlin("jvm") version "1.3.31"
-    id("com.github.johnrengelman.shadow") version "4.0.4"
+    id("de.fayard.buildSrcVersions") version Versions.de_fayard_buildsrcversions_gradle_plugin
+    kotlin("jvm") version Versions.org_jetbrains_kotlin
+    id("com.github.johnrengelman.shadow") version Versions.com_github_johnrengelman_shadow_gradle_plugin
 }
 
 dependencies {
     implementation(Libs.okhttp)
-    implementation("org.jetbrains.kotlin:kotlin-reflect:${Versions.org_jetbrains_kotlin}")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("org.slf4j:slf4j-api:1.7.25")
-    implementation("org.slf4j:slf4j-jdk14:1.7.26")
-    implementation("io.github.microutils:kotlin-logging:1.6.10")
+    implementation(Libs.kotlin_stdlib_jdk8)
+    implementation(Libs.slf4j_api)
+    implementation(Libs.slf4j_jdk14)
+    implementation(Libs.kotlin_logging)
     implementation(Libs.koin_core)
-    implementation("com.amazonaws:aws-lambda-java-core:1.1.0")
-    implementation("com.amazonaws:aws-lambda-java-log4j2:1.0.0")
-    implementation("com.amazonaws:aws-lambda-java-events:2.0.1")
-    implementation("com.amazonaws:aws-java-sdk-dynamodb:1.11.527")
-    implementation("com.fasterxml.jackson.core:jackson-core:2.8.5")
-    implementation("com.fasterxml.jackson.core:jackson-databind:2.8.5")
-    implementation("com.fasterxml.jackson.core:jackson-annotations:2.8.5")
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.5")
+    implementation(Libs.aws_lambda_java_core)
+    implementation(Libs.aws_lambda_java_log4j2)
+    implementation(Libs.aws_lambda_java_events)
+    implementation(Libs.aws_java_sdk_dynamodb)
+    implementation(Libs.jackson_core)
+    implementation(Libs.jackson_databind)
+    implementation(Libs.jackson_annotations)
+    implementation(Libs.jackson_module_kotlin)
 
     testImplementation(Libs.testng)
     testImplementation(Libs.koin_test)

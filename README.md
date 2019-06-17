@@ -7,7 +7,6 @@ I'm currently just using it to notify me when my
 but it could easily be extended to support many different kinds of notifications that you want to
 push from SNS to your Alexa. 
 
-
 # Installation
 
 - Install the [Notify Me](https://www.amazon.com/Thomptronics-Notify-Me/dp/B07BB2FYFS) skill.

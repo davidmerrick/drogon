@@ -1,6 +1,6 @@
 package com.merricklabs.drogon
 
-import org.koin.standalone.KoinComponent
+import org.koin.core.KoinComponent
 
 class DrogonConfig : KoinComponent {
     val notifyMe = NotifyMe()

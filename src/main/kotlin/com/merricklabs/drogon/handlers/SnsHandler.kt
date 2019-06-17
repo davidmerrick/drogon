@@ -4,13 +4,15 @@ import com.amazonaws.services.lambda.runtime.Context
 import com.amazonaws.services.lambda.runtime.RequestHandler
 import com.amazonaws.services.lambda.runtime.events.SNSEvent
 import com.merricklabs.drogon.DrogonModule
-import org.koin.standalone.StandAloneContext
+import org.koin.core.context.startKoin
 
 class SnsHandler : RequestHandler<SNSEvent, Unit> {
     private val logic: SnsHandlerLogic
 
     init {
-        StandAloneContext.startKoin(listOf(DrogonModule))
+        startKoin {
+            modules(DrogonModule)
+        }
         logic = SnsHandlerLogic()
     }
 

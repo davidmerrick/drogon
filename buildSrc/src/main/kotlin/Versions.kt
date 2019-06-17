@@ -9,15 +9,15 @@ import kotlin.String
 object Versions {
     const val aws_java_sdk_dynamodb: String = "1.11.527" // available: "1.11.573"
 
-    const val aws_lambda_java_core: String = "1.1.0" // available: "1.2.0"
+    const val aws_lambda_java_core: String = "1.2.0" // available: "1.2.0"
 
-    const val aws_lambda_java_events: String = "2.0.1" // available: "2.2.6"
+    const val aws_lambda_java_events: String = "2.2.6"
 
     const val aws_lambda_java_log4j2: String = "1.0.0" // available: "1.1.0"
 
-    const val com_fasterxml_jackson_core: String = "2.8.5" // available: "2.9.9"
+    const val com_fasterxml_jackson_core: String = "2.9.9"
 
-    const val jackson_module_kotlin: String = "2.8.5" // available: "2.9.9"
+    const val jackson_module_kotlin: String = "2.9.9"
 
     const val com_github_johnrengelman_shadow_gradle_plugin: String = "4.0.4" 
             // available: "5.0.0"
@@ -34,7 +34,7 @@ object Versions {
 
     const val org_jetbrains_kotlin: String = "1.3.31" 
 
-    const val org_koin: String = "1.0.1" // available: "2.0.1"
+    const val org_koin: String = "2.0.1"
 
     const val slf4j_api: String = "1.7.25" // available: "1.7.26"
 
