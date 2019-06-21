@@ -1,7 +1,7 @@
 service: drogon
 
 custom:
-  topicName: ${self:service}
+  topicName: ${env:SNS_TOPIC}
 
 provider:
   name: aws
